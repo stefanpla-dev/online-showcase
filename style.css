@@ -1,14 +1,39 @@
+/*!
+Lines 16 through 25 of this style sheet derive from the style sheet credited below to achieve the font style seen on this webpage. 
+This webpage has not been created for personal financial gain, but rather to be used as a person repository for my work in software engineering.
+Please see the full details of the source below.
+
+* LICENSE - style only: CC BY-NC-SA
+* @link https://creativecommons.org/licenses/by-nc-sa/3.0/
+* Title: Borlandish
+* Author: Vishwa.R
+* Website: https://code-reaper08.github.io/Vishwa/
+*
+* View on Style Stage:
+* @link https://stylestage.dev/styles/borlandish/
+*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
+  color: #FFFF00;
+  font-family: 'Press Start 2P';
+  font-size: 1em;
+  background: #4613e0;
+  text-align: center;
+}
+
   h1 {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
   }
-  img {
-    display: block;
-    margin: 0 auto;
+  h2 {
+    font-size: 20px;
+  }
+  h1, h2 {
+    text-shadow: 3px 3px 3px #000000;
   }
   nav {
     text-align: center;
@@ -16,10 +41,7 @@ body {
   nav a{
     display: inline-block;
     padding: 10px;
-    background-color: pink;
-  }
-  figure {
-    text-align: center;
+    background-color: rgb(211, 196, 199);
   }
   #intro-to-site {
     display: flex;
@@ -31,9 +53,9 @@ body {
   #details {
     display: flex;
     flex-direction: row;
-    background-color: pink;
+    background-color:  rgb(211, 196, 199);
     justify-content: space-around;
-    align-items: flex-end;
     text-align: center;
-  }
+    line-height: 22px;
+    }
   
